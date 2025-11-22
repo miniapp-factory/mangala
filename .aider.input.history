@@ -1,0 +1,248 @@
+
+# 2025-11-22 19:21:32.999894
++Code the following app
++```
++You will build a complete, interactive “Mangala” (Turkish Mancala) board game
++as a Farcaster Mini-App (Frames compatible). 
++
++IMPORTANT REQUIREMENTS:
++- Keep all UI and code FRAME-SAFE (no external heavy JS unless necessary).
++- Use simple HTML/CSS/JS or lightweight React.
++- Maintain game state between interactions.
++- Ensure the mini-app can be embedded inside a Farcaster cast.
++
++------------------------------------------
++GAME RULES — IMPLEMENT EXACTLY (MANGALA)
++------------------------------------------
++
++Board structure:
++- 2 players
++- Each player has 6 pits (P1 pits: 1–6, P2 pits: 7–12)
++- Each player has 1 store (P1 store, P2 store)
++- Each pit begins with 4 stones.
++
++Turn Rules:
++1. On your turn, choose one of your pits.
++2. Pick up all stones from that pit.
++3. Distribute stones counter-clockwise, one per pit/store.
++4. Skip opponent’s store during distribution.
++
++Capturing rule:
++- If the last stone lands in your EMPTY pit on your own side:
++  You capture that stone + all stones in the opposite pit.
++  Move them to your store.
++
++Free turn rule:
++- If the last stone lands in your own store, you get another turn.
++
++Game end rule:
++- If one side’s pits are all empty → game ends.
++- Remaining stones go to the respective player’s store.
++- Higher store count wins.
++
++------------------------------------------
++UI REQUIREMENTS
++------------------------------------------
++
++The UI must show:
++- The full Mangala board (6 pits + store per player)
++- Stones count in each pit + store
++- A clear indicator of whose turn it is
++- Buttons to select pits
++- Reset/New Game button
++- Optional: simple animations (increment/decrement, highlight last pit)
++
++The layout must work inside a Farcaster Mini-App frame:
++- Max width 420px
++- Simple and readable
++- Touch-friendly buttons
++- Minimal but pleasant styling (CSS allowed)
++
++------------------------------------------
++STATE MANAGEMENT
++------------------------------------------
++
++Your output should include:
++- Data model:
++  pits = [4,4,4,4,4,4, 4,4,4,4,4,4]
++  stores = { p1: 0, p2: 0 }
++  currentPlayer = 1 or 2
++
++- Functions:
++  makeMove(pitIndex)
++  distributeStones()
++  checkCapture()
++  checkExtraTurn()
++  checkGameOver()
++  getWinner()
++
++- UI update function:
++  renderBoard()
++
++------------------------------------------
++FARCASTER MINI-APP REQUIREMENTS
++------------------------------------------
++
++Include:
++1) Mini-App metadata:
++   <meta name="fc:frame" content="vNext">
++   <meta property="og:title" content="Mangala Mini Game">
++   <meta property="og:image" content="IMAGE_URL_HERE">
++
++2) Buttons on the frame:
++   - Buttons representing pits for the current player
++   - A "New Game" button
++   - A "Share Result" button (end screen only)
++
++3) If possible: 
++   When the game finishes, allow:
++   - Share on Farcaster → "/~/compose?text=I won Mangala! https://YOUR_APP_URL"
++   - Share on X → "https://twitter.com/intent/tweet?text=..."
++
++------------------------------------------
++OUTPUT FORMAT
++------------------------------------------
++
++Produce the following in the response:
++
++1) Full working mini-app code (HTML/JS or React)
++2) Explanation of all key functions
++3) List of API endpoints if needed
++4) A test simulation (example gameplay showing moves)
++
++------------------------------------------
++NOW START:
++------------------------------------------
++
++Build the FULL WORKING Mangala Mini-App code according to all rules above.
++
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-22 19:21:33.000848
++Code the following app
++```
++You will build a complete, interactive “Mangala” (Turkish Mancala) board game
++as a Farcaster Mini-App (Frames compatible). 
++
++IMPORTANT REQUIREMENTS:
++- Keep all UI and code FRAME-SAFE (no external heavy JS unless necessary).
++- Use simple HTML/CSS/JS or lightweight React.
++- Maintain game state between interactions.
++- Ensure the mini-app can be embedded inside a Farcaster cast.
++
++------------------------------------------
++GAME RULES — IMPLEMENT EXACTLY (MANGALA)
++------------------------------------------
++
++Board structure:
++- 2 players
++- Each player has 6 pits (P1 pits: 1–6, P2 pits: 7–12)
++- Each player has 1 store (P1 store, P2 store)
++- Each pit begins with 4 stones.
++
++Turn Rules:
++1. On your turn, choose one of your pits.
++2. Pick up all stones from that pit.
++3. Distribute stones counter-clockwise, one per pit/store.
++4. Skip opponent’s store during distribution.
++
++Capturing rule:
++- If the last stone lands in your EMPTY pit on your own side:
++  You capture that stone + all stones in the opposite pit.
++  Move them to your store.
++
++Free turn rule:
++- If the last stone lands in your own store, you get another turn.
++
++Game end rule:
++- If one side’s pits are all empty → game ends.
++- Remaining stones go to the respective player’s store.
++- Higher store count wins.
++
++------------------------------------------
++UI REQUIREMENTS
++------------------------------------------
++
++The UI must show:
++- The full Mangala board (6 pits + store per player)
++- Stones count in each pit + store
++- A clear indicator of whose turn it is
++- Buttons to select pits
++- Reset/New Game button
++- Optional: simple animations (increment/decrement, highlight last pit)
++
++The layout must work inside a Farcaster Mini-App frame:
++- Max width 420px
++- Simple and readable
++- Touch-friendly buttons
++- Minimal but pleasant styling (CSS allowed)
++
++------------------------------------------
++STATE MANAGEMENT
++------------------------------------------
++
++Your output should include:
++- Data model:
++  pits = [4,4,4,4,4,4, 4,4,4,4,4,4]
++  stores = { p1: 0, p2: 0 }
++  currentPlayer = 1 or 2
++
++- Functions:
++  makeMove(pitIndex)
++  distributeStones()
++  checkCapture()
++  checkExtraTurn()
++  checkGameOver()
++  getWinner()
++
++- UI update function:
++  renderBoard()
++
++------------------------------------------
++FARCASTER MINI-APP REQUIREMENTS
++------------------------------------------
++
++Include:
++1) Mini-App metadata:
++   <meta name="fc:frame" content="vNext">
++   <meta property="og:title" content="Mangala Mini Game">
++   <meta property="og:image" content="IMAGE_URL_HERE">
++
++2) Buttons on the frame:
++   - Buttons representing pits for the current player
++   - A "New Game" button
++   - A "Share Result" button (end screen only)
++
++3) If possible: 
++   When the game finishes, allow:
++   - Share on Farcaster → "/~/compose?text=I won Mangala! https://YOUR_APP_URL"
++   - Share on X → "https://twitter.com/intent/tweet?text=..."
++
++------------------------------------------
++OUTPUT FORMAT
++------------------------------------------
++
++Produce the following in the response:
++
++1) Full working mini-app code (HTML/JS or React)
++2) Explanation of all key functions
++3) List of API endpoints if needed
++4) A test simulation (example gameplay showing moves)
++
++------------------------------------------
++NOW START:
++------------------------------------------
++
++Build the FULL WORKING Mangala Mini-App code according to all rules above.
++
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-22 19:22:28.756069
++apply changes
+
+# 2025-11-22 19:22:28.756479
++apply changes
