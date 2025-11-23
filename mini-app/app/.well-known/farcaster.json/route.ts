@@ -14,7 +14,7 @@ export async function GET() {
   const baseBuilder = JSON.parse(
     process.env.BASE_BUILDER ??
       JSON.stringify({
-        allowedAddresses: [],
+        allowedAddresses: ["0x5beFBa4634D09B7868C438f9380Dd9205a1A24Aa"],
       })
   );
 
