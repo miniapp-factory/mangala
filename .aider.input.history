@@ -1362,3 +1362,47 @@
 +```
 +
 +Generate an app logo and update the app metadata title and description.
+
+# 2025-11-23 20:40:10.708156
++{
++  "frame": {
++    "name": "Turkish Mangala",
++    "version": "1",
++    "iconUrl": "https://mangala.miniapp-factory.marketplace.openxai.network/icon.png",
++    "homeUrl": "https://mangala.miniapp-factory.marketplace.openxai.network",
++    "imageUrl": "https://mangala.miniapp-factory.marketplace.openxai.network/image.png",
++    "splashImageUrl": "https://mangala.miniapp-factory.marketplace.openxai.network/splash.png",
++    "splashBackgroundColor": "#6200EA",
++    "webhookUrl": "https://mangala.miniapp-factory.marketplace.openxai.network/api/webhook",
++    "primaryCategory": "games",
++    "subtitle": "The classic Turkish Mangala, rebuilt for the modern Web.",
++    "description": "Experience the classic Turkish Mangala in a modern, interactive format. Smooth animations, clean UI, CPU difficulty modes, and shareable match results. Simple to learn, deep to master — challenge yourself or a friend."
++  },
++  "accountAssociation": {
++    "header": "eyJmaWQiOjk5Mjk1NiwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEQ3NDk0NGY3MEU1MTE2RDZBMkU2NjQzN2U1OGQ0MTYxYUVBMTRBYjAifQ",
++    "payload": "eyJkb21haW4iOiJtYW5nYWxhLm1pbmlhcHAtZmFjdG9yeS5tYXJrZXRwbGFjZS5vcGVueGFpLm5ldHdvcmsifQ",
++    "signature": "0SI1ZdLpCweM8lGbEH3etnCUTws3bD7pXnaY+/Kxi/cNCSxuaQyazmqpIniGA9FXwapUQaX6zpY6Wv2FTOCMixw="
++  }
++}
+
+# 2025-11-23 20:40:10.708731
++{
++  "frame": {
++    "name": "Turkish Mangala",
++    "version": "1",
++    "iconUrl": "https://mangala.miniapp-factory.marketplace.openxai.network/icon.png",
++    "homeUrl": "https://mangala.miniapp-factory.marketplace.openxai.network",
++    "imageUrl": "https://mangala.miniapp-factory.marketplace.openxai.network/image.png",
++    "splashImageUrl": "https://mangala.miniapp-factory.marketplace.openxai.network/splash.png",
++    "splashBackgroundColor": "#6200EA",
++    "webhookUrl": "https://mangala.miniapp-factory.marketplace.openxai.network/api/webhook",
++    "primaryCategory": "games",
++    "subtitle": "The classic Turkish Mangala, rebuilt for the modern Web.",
++    "description": "Experience the classic Turkish Mangala in a modern, interactive format. Smooth animations, clean UI, CPU difficulty modes, and shareable match results. Simple to learn, deep to master — challenge yourself or a friend."
++  },
++  "accountAssociation": {
++    "header": "eyJmaWQiOjk5Mjk1NiwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEQ3NDk0NGY3MEU1MTE2RDZBMkU2NjQzN2U1OGQ0MTYxYUVBMTRBYjAifQ",
++    "payload": "eyJkb21haW4iOiJtYW5nYWxhLm1pbmlhcHAtZmFjdG9yeS5tYXJrZXRwbGFjZS5vcGVueGFpLm5ldHdvcmsifQ",
++    "signature": "0SI1ZdLpCweM8lGbEH3etnCUTws3bD7pXnaY+/Kxi/cNCSxuaQyazmqpIniGA9FXwapUQaX6zpY6Wv2FTOCMixw="
++  }
++}
